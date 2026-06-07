@@ -1,0 +1,391 @@
+ارجوك بليز اكمل وايضا مثلا لو انا مثل وتساب وتليجرام لو انا اريد اراسل شخص ابحث عليه من خلال الاي دي الخاص به لان كل شخص لديه اي دي وايضا اخذه من جهه الاتصال فهمت يعني يسجل برقم واخذ بجهه اتصال وايضا شوف الاخطاء ديت فالان اكمل ولا اريد اي خطا وكل شيء يعمل والتطبيق تمامSocial Chat
+
+ث نشر
+
+Preview
+
+وزه
+
+Social Chat...
+
+Log 1 of 1
+
+Uncaught Error
+
+useAuth must be used within an AuthProvider
+
+Source
+
+196 |
+
+const context = useContext (AuthCon
+
+197 |
+
+if (context undefined) {
+
+> 198 |
+
+throw new Error("useAuth must be
+
+199
+
+}
+
+200 1
+
+return context;
+
+2011}
+
+lib/auth-context.tsx (198:11)
+
+Call Stack
+
+useAuth
+
+lib/auth-context.tsx:198:11
+
+Chat DetailScreen
+
+app/(tabs)/chat-detail.tsx:30:28
+
+See 13 more frames
+
+Component Stack
+
+Chat DetailScreen
+
+Dismiss
+
+Minimize
+
+
+
+
+
+و
+
+
+ث نشر
+
+Component
+
+Social Chat...
+
+Log 1 of 1
+
+Uncaught Error
+
+useAuth must be used within an AuthProvider
+
+201}
+
+lib/auth-context.tsx
+
+(198:11)
+
+Call Stack
+
+use Auth
+
+lib/auth-context.tsx:198:11
+
+Chat DetailScreen
+
+app/(tabs)/chat-detail.tsx:30:28
+
+See 13 more frames
+
+Component Stack
+
+Chat DetailScreen
+
+app/(tabs)/chat-detail.tsx:29:24
+
+TabLayout
+
+app/(tabs)/_layout.tsx:9:16
+
+Theme Provider
+
+lib/theme-provider.tsx:14:8
+
+RootLayout
+
+app/_layout.tsx:29:16
+
+See 101 more frames
+
+Dismiss
+
+Minimize
+
+
+
+
+
+
+
+
+و
+
+
+
+89
+
+Log 2 of 2
+
+Render Error
+
+useAuth must be used within an AuthProvider
+
+٥:٠١
+
+Sources
+
+196 | const context = useContext(AuthContext);
+
+197
+
+if (context === undefined) {
+
+> 198
+
+throw new Error("useAuth must be used
+
+199
+
+}
+
+200
+
+return context;
+
+201 }
+
+auth-context.tsx (198:20)
+
+491;
+
+50 |
+
+A
+
+> 51
+
+export default function ChatsScreen() {
+
+52 |
+
+A
+
+const {t} = useI18n();
+
+53 |
+
+const { state } = useAuth();
+
+54
+
+| const [searchText, setSearchText] = uses
+
+chats.tsx (51:16)
+
+Component Stack
+
+<ChatsScreen />
+
+chats.tsx:51
+
+<Route />
+
+Route.js:30
+
+<BaseRoute />
+
+useScreens.js:189
+
+See 94 more components
+
+Dismiss
+
+Minimize89
+
+Log 2 of 2
+
+Render Error
+
+useAuth must be used within an AuthProvider
+
+٥:٠١
+
+Sources
+
+196 | const context = useContext(AuthContext);
+
+197
+
+if (context === undefined) {
+
+> 198
+
+throw new Error("useAuth must be used
+
+199
+
+}
+
+200
+
+return context;
+
+201 }
+
+49];
+
+auth-context.tsx (198:20)
+
+50 |
+
+A
+
+> 51
+
+export default function ChatsScreen() {
+
+52
+
+const {t} = useI18n();
+
+53 |
+
+const { state } = useAuth();
+
+54 |
+
+const [searchText, setSearchText] = uses
+
+chats.tsx (51:16)
+
+Component Stack
+
+<ChatsScreen />
+
+chats.tsx:51
+
+<Route />
+
+Route.js:30
+
+<BaseRoute />
+
+useScreens.js:189
+
+See 94 more components
+
+Dismiss
+
+Minimize89
+
+Log 2 of 2
+
+Render Error
+
+useAuth must be used within an AuthProvider
+
+2001 return context;
+
+201}
+
+auth-context.tsx (198:20)
+
+491;
+
+50 |
+
+> 51
+
+export default function ChatsScreen() {
+
+٥:٠١
+
+52
+
+const {t} = useI18n();
+
+53 |
+
+const { state } = useAuth();
+
+54 | const [searchText, setSearchText] = uses
+
+chats.tsx (51:16)
+
+Component Stack
+
+<ChatsScreen />
+
+chats.tsx:51
+
+<Route />
+
+Route.js:30
+
+<BaseRoute />
+
+useScreens.js:189
+
+See 94 more components
+
+Call Stack
+
+useAuth
+
+auth-context.tsx:198:20
+
+Chats Screen
+
+chats.tsx:53:28
+
+See 10 more frames
+
+Dismiss
+
+Minimize89
+
+Log 1 of 1
+
+٥:٠١
+
+Console Error
+
+Uncaught (in promise, id: 0) Error: Unable to activate keep awake
+
+Source
+
+2 var setPrototypeOf = require("./setPrototypре
+
+3 function _construct(t, e, r) {
+
+>
+
+4 if (isNativeReflectConstruct()) return Re1
+
+51
+
+var o = [null];
+
+6 o.push.apply(o, e);
+
+71 var p = new (t.bind.apply(t, o))();
+
+construct.js (4:65)
+
+Call Stack
+
+See all 4 collapsed frames
+
+Dismiss
+
+Minimize
